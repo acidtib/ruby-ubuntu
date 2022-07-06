@@ -1,13 +1,11 @@
 FROM acidtib/ruby-ubuntu-base:latest
 
-ARG RUBY_PATH=/usr/local/
-ARG RUBY_VERSION=3.1.2
+ARG DEBIAN_FRONTEND=noninteractive
 
-RUN git clone https://github.com/rbenv/ruby-build.git $RUBY_PATH/plugins/ruby-build \
-		&& $RUBY_PATH/plugins/ruby-build/install.sh
+RUN wget https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.gz && \
+		tar xvfz ruby-3.1.2.tar.gz && \
+		cd ruby-3.1.2 && ./configure && make && make install
 
-RUN ruby-build $RUBY_VERSION $RUBY_PATH
-
-ENV PATH $RUBY_PATH/bin:$PATH
+RUN gem install bundler
 
 CMD [ "irb" ]
