@@ -14,5 +14,13 @@
       "focal"
     ],
     "version": "3.1.2"
+  },
+  "3.2-rc": {
+    "sha256": "6d28477f7fa626b63bf139afd37bcfeb28fce6847b203fa10f37cb3615d0c35d",
+    "variants": [
+      "jammy",
+      "focal"
+    ],
+    "version": "3.2.0-preview1"
   }
 }
