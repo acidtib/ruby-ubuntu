@@ -1,0 +1,18 @@
+{
+  "3.0": {
+    "sha256": "8e22fc7304520435522253210ed0aa9a50545f8f13c959fe01a05aea06bef2f0",
+    "variants": [
+      "jammy",
+      "focal"
+    ],
+    "version": "3.0.4"
+  },
+  "3.1": {
+    "sha256": "ca10d017f8a1b6d247556622c841fc56b90c03b1803f87198da1e4fd3ec3bf2a",
+    "variants": [
+      "jammy",
+      "focal"
+    ],
+    "version": "3.1.2"
+  }
+}
