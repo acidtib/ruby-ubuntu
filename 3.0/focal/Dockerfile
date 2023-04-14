@@ -18,8 +18,8 @@ RUN set -eux; \
 
 ENV LANG C.UTF-8
 ENV RUBY_MAJOR 3.0
-ENV RUBY_VERSION 3.0.4
-ENV RUBY_DOWNLOAD_SHA256 8e22fc7304520435522253210ed0aa9a50545f8f13c959fe01a05aea06bef2f0
+ENV RUBY_VERSION 3.0.6
+ENV RUBY_DOWNLOAD_SHA256 b5cbee93e62d85cfb2a408c49fa30a74231ae8409c2b3858e5f5ea254d7ddbd1
 
 RUN wget -O ruby.tar.xz https://cache.ruby-lang.org/pub/ruby/${RUBY_MAJOR%-rc}/ruby-$RUBY_VERSION.tar.xz && \
 		mkdir -p /usr/src/ruby && \

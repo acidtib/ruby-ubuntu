@@ -1,26 +1,26 @@
 {
   "3.0": {
-    "sha256": "8e22fc7304520435522253210ed0aa9a50545f8f13c959fe01a05aea06bef2f0",
+    "sha256": "b5cbee93e62d85cfb2a408c49fa30a74231ae8409c2b3858e5f5ea254d7ddbd1",
     "variants": [
       "jammy",
       "focal"
     ],
-    "version": "3.0.4"
+    "version": "3.0.6"
   },
   "3.1": {
-    "sha256": "ca10d017f8a1b6d247556622c841fc56b90c03b1803f87198da1e4fd3ec3bf2a",
+    "sha256": "1b6d6010e76036c937b9671f4752f065aeca800a6c664f71f6c9a699453af94f",
     "variants": [
       "jammy",
       "focal"
     ],
-    "version": "3.1.2"
+    "version": "3.1.4"
   },
-  "3.2-rc": {
-    "sha256": "6d28477f7fa626b63bf139afd37bcfeb28fce6847b203fa10f37cb3615d0c35d",
+  "3.2": {
+    "sha256": "4b352d0f7ec384e332e3e44cdbfdcd5ff2d594af3c8296b5636c710975149e23",
     "variants": [
       "jammy",
       "focal"
     ],
-    "version": "3.2.0-preview1"
+    "version": "3.2.2"
   }
 }

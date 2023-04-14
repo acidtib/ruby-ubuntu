@@ -17,9 +17,9 @@ RUN set -eux; \
 	} >> /usr/local/etc/gemrc
 
 ENV LANG C.UTF-8
-ENV RUBY_MAJOR 3.2-rc
-ENV RUBY_VERSION 3.2.0-preview1
-ENV RUBY_DOWNLOAD_SHA256 6d28477f7fa626b63bf139afd37bcfeb28fce6847b203fa10f37cb3615d0c35d
+ENV RUBY_MAJOR 3.2
+ENV RUBY_VERSION 3.2.2
+ENV RUBY_DOWNLOAD_SHA256 4b352d0f7ec384e332e3e44cdbfdcd5ff2d594af3c8296b5636c710975149e23
 
 RUN wget -O ruby.tar.xz https://cache.ruby-lang.org/pub/ruby/${RUBY_MAJOR%-rc}/ruby-$RUBY_VERSION.tar.xz && \
 		mkdir -p /usr/src/ruby && \
